@@ -30,7 +30,7 @@ public class Pool : MonoBehaviour
             return dictionaryPools[prefab];
         }
 
-        // If it isn't found that means we don't have a pool for that prefab so we want to create one
+        // If it isn't found that means we don't have a pool for that prefab spawnerObject we want to create one
         
         Pool pool;
         if (overrideParent == null)

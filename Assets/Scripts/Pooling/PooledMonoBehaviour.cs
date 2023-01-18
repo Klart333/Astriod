@@ -11,7 +11,7 @@ public class PooledMonoBehaviour : MonoBehaviour
     [SerializeField]
     private int initialPoolSize = 10;
 
-    public event Action<PooledMonoBehaviour> OnReturnToPool; // Takes a PooledMonoBehaviour as an argument so that we know what object to return
+    public event Action<PooledMonoBehaviour> OnReturnToPool; // Takes a PooledMonoBehaviour as an argument spawnerObject that we know what object to return
 
     public int InitialPoolSize { get { return initialPoolSize; } } 
 
@@ -29,7 +29,7 @@ public class PooledMonoBehaviour : MonoBehaviour
 
         var pooledObject = pool.Get<T>(); // 4. The pooledObject is the one we want to show/enable in the scene. We get it from the Get<T> function of the pool of the prefab, the Get<T> Method returns the first element of the pooled queue 
 
-        pooledObject.gameObject.SetActive(true); // We now have the object we want show/enable, so all we have to do is enable it
+        pooledObject.gameObject.SetActive(true); // We now have the object we want show/enable, spawnerObject all we have to do is enable it
 
         return pooledObject; // returns the gameobject, this is for accessing it and making adjustments after it has spawned
     }

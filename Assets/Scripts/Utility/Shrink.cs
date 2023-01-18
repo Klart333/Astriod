@@ -28,7 +28,7 @@ public class Shrink : MonoBehaviour
         {
             t += Time.deltaTime / lifeTime;
 
-            if (transform == null)
+            if (this == null)
             {
                 return;
             }

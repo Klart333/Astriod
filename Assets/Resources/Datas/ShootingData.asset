@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 93602bf1747af8e4b9976570132e27a9, type: 3}
-  m_Name: ShootData
+  m_Name: ShootingData
   m_EditorClassIdentifier: 
   Shot: {fileID: 1889469195055157017, guid: 41ca7e267ac276047b1df870f4c72515, type: 3}
   FireRate: 5
