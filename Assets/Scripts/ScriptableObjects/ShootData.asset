@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93602bf1747af8e4b9976570132e27a9, type: 3}
+  m_Name: ShootData
+  m_EditorClassIdentifier: 
+  Shot: {fileID: 1889469195055157017, guid: 41ca7e267ac276047b1df870f4c72515, type: 3}
+  FireRate: 5
+  BulletSpeed: 1.2
