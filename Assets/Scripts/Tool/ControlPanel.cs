@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class TheBigTool : EditorWindow
+public class ControlPanel : EditorWindow
 {
 
     private SpawnerData spawnerData;
@@ -93,10 +93,10 @@ public class TheBigTool : EditorWindow
     }
 
 
-    [MenuItem("Tools/Tool")]
-    public static void Thing()
+    [MenuItem("Tools/Control panel")]
+    public static void Window()
     {
-        GetWindow<TheBigTool>("Control panel");
+        GetWindow<ControlPanel>("Control panel");
     }
 }
 #endif 
