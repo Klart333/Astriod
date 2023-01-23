@@ -30,10 +30,10 @@ For VG
 •Reflect on the process of creating the tool and provide insightful and thoughtful feedback on how the use of ScriptableObjects and Unity editor tools impacted the development process.
  - I regularly use scriptable objects in my projects to easily store data and sometimes even functionality that doesn't 
    need to live in the scene and is reapetedly used. In which case it can be quite handy in composition patterns but anyway. 
-   It was very easy setting up the tool as the scriptable obejcts where already being used, I just needed to edit their values
-   and the changes would take place in game even in runtime. I don't really like getting them through loading through Resources,
-   and a better system can be implemented I'm sure, but it's very much not a problem as I see it so going through extra effort to make
-   something functionaly identical wasn't really that tempting.
+   It was very easy setting up the tool as the scriptable obejcts where already being used, I just needed to 
+   edit their values and the changes would take place in game even in runtime. I don't really like loading them 
+   through Resources, and a better system can be implemented I'm sure, but it's very much not a problem as I see it
+   so going through extra effort to make something functionaly identical wasn't really that tempting.
 
    Incase you want an short essay on scriptable objects, this is what chat-gpt gave me: 
    ScriptableObjects and Unity editor tools can have a significant impact on the development process by allowing for a more 
@@ -48,8 +48,9 @@ For VG
    and make changes without worrying about unintended side effects.
 
    However, it's important to keep in mind that the use of ScriptableObjects and Unity editor tools can also 
-   add complexity to the development process, particularly if they are used excessively or in a way that is not well-organized. 
-   It's important to have a clear understanding of how the data is being used in the project and have a plan for how it will be managed.
+   add complexity to the development process, particularly if they are used excessively or in a way 
+   that is not well-organized. It's important to have a clear understanding of how the data is being used
+   in the project and have a plan for how it will be managed.
 
    Overall, the use of ScriptableObjects and Unity editor tools can be a powerful way to improve the development process,
    but it's important to use them in a thoughtful and organized manner.
