@@ -14,7 +14,6 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
         }
         else
         {
-            print("Aawake");
             Instance = GetComponent<T>();
             DontDestroyOnLoad(Instance.gameObject);
         }

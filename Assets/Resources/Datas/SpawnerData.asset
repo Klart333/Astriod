@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9595d55cb536734883883b357d0ba66, type: 3}
   m_Name: SpawnerData
   m_EditorClassIdentifier: 
-  SpawnRate: 1
+  SpawnRate: 7.29
   MinSize: 0.5
   MaxSize: 1
   MinForce: 1

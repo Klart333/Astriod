@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ShootingData
   m_EditorClassIdentifier: 
   Shot: {fileID: 1889469195055157017, guid: 41ca7e267ac276047b1df870f4c72515, type: 3}
-  FireRate: 5
+  FireRate: 11.21
   BulletSpeed: 1.2
